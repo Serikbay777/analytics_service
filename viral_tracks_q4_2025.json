@@ -1,0 +1,953 @@
+{
+  "generated_at": "2026-02-12T15:57:59.622309",
+  "source_file": "1855874_704133_2025-10-01_2025-12-01 (1).csv",
+  "total_viral_tracks": 50,
+  "tracks": [
+    {
+      "track": "erterek kel",
+      "artist": "kilemger",
+      "total_streams": 2271034,
+      "max_growth_pct": 8070238.095238095,
+      "max_growth_abs": 1694750,
+      "max_growth_month": "2025/10/01",
+      "virality_coef": 2.9850209199862263,
+      "peak_streams": 1694771,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 576212,
+      "monthly_data": {
+        "2025/08/01": 30,
+        "2025/09/01": 21,
+        "2025/10/01": 1694771,
+        "2025/11/01": 576212
+      }
+    },
+    {
+      "track": "INTRO",
+      "artist": "Kerimgold",
+      "total_streams": 338587,
+      "max_growth_pct": 5642900.0,
+      "max_growth_abs": 338574,
+      "max_growth_month": "2025/11/01",
+      "virality_coef": 2.9999379775360544,
+      "peak_streams": 338580,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 338580,
+      "monthly_data": {
+        "2025/09/01": 1,
+        "2025/10/01": 6,
+        "2025/11/01": 338580
+      }
+    },
+    {
+      "track": "Otajonimsiz",
+      "artist": "Sevara Nazarkhan",
+      "total_streams": 9707369,
+      "max_growth_pct": 5182735.042735043,
+      "max_growth_abs": 6063800,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.4986861012494734,
+      "peak_streams": 6063917,
+      "current_trend": "стабильно",
+      "latest_month": "2025/11/01",
+      "latest_streams": 1945687,
+      "monthly_data": {
+        "2025/08/01": 117,
+        "2025/09/01": 6063917,
+        "2025/10/01": 1697648,
+        "2025/11/01": 1945687
+      }
+    },
+    {
+      "track": "GAENG",
+      "artist": "MADE1RG, DI BABY S, a1ish, RINVT",
+      "total_streams": 87690,
+      "max_growth_pct": 650461.5384615385,
+      "max_growth_abs": 84560,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 3.857817310981868,
+      "peak_streams": 84573,
+      "current_trend": "↘️ спад",
+      "latest_month": "2025/11/01",
+      "latest_streams": 1191,
+      "monthly_data": {
+        "2025/08/01": 13,
+        "2025/09/01": 84573,
+        "2025/10/01": 1913,
+        "2025/11/01": 1191
+      }
+    },
+    {
+      "track": "Асыл арман",
+      "artist": "Asyl Müra, Роза Бағланова",
+      "total_streams": 92837,
+      "max_growth_pct": 426166.6666666667,
+      "max_growth_abs": 76710,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 3.3059232848971853,
+      "peak_streams": 76728,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 9985,
+      "monthly_data": {
+        "2025/08/01": 18,
+        "2025/09/01": 76728,
+        "2025/10/01": 6106,
+        "2025/11/01": 9985
+      }
+    },
+    {
+      "track": "Tygyryq",
+      "artist": "ansat",
+      "total_streams": 71855,
+      "max_growth_pct": 368564.28571428574,
+      "max_growth_abs": 51599,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.8731751443880036,
+      "peak_streams": 51613,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 5815,
+      "monthly_data": {
+        "2025/08/01": 14,
+        "2025/09/01": 51613,
+        "2025/10/01": 14413,
+        "2025/11/01": 5815
+      }
+    },
+    {
+      "track": "Intro",
+      "artist": "Yenlik",
+      "total_streams": 3416723,
+      "max_growth_pct": 223083.74558303886,
+      "max_growth_abs": 2525308,
+      "max_growth_month": "2025/10/01",
+      "virality_coef": 2.2183009860617906,
+      "peak_streams": 2526440,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 889151,
+      "monthly_data": {
+        "2025/09/01": 1132,
+        "2025/10/01": 2526440,
+        "2025/11/01": 889151
+      }
+    },
+    {
+      "track": "Ulug'imsan Vatanim",
+      "artist": "Sevara Nazarkhan",
+      "total_streams": 16028263,
+      "max_growth_pct": 166781.08301526718,
+      "max_growth_abs": 6991463,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.745829850683134,
+      "peak_streams": 6995655,
+      "current_trend": "📈 рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 5385445,
+      "monthly_data": {
+        "2025/08/01": 4192,
+        "2025/09/01": 6995655,
+        "2025/10/01": 3642971,
+        "2025/11/01": 5385445
+      }
+    },
+    {
+      "track": "Bulttar Nege Mundy",
+      "artist": "Zineken",
+      "total_streams": 68246,
+      "max_growth_pct": 164043.9024390244,
+      "max_growth_abs": 67258,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 3.9444949154529203,
+      "peak_streams": 67299,
+      "current_trend": "↘️ спад",
+      "latest_month": "2025/11/01",
+      "latest_streams": 364,
+      "monthly_data": {
+        "2025/08/01": 41,
+        "2025/09/01": 67299,
+        "2025/10/01": 542,
+        "2025/11/01": 364
+      }
+    },
+    {
+      "track": "Asap Je",
+      "artist": "SHULAMAH",
+      "total_streams": 218630,
+      "max_growth_pct": 153774.02597402598,
+      "max_growth_abs": 118406,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.1677354434432603,
+      "peak_streams": 118483,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 26923,
+      "monthly_data": {
+        "2025/08/01": 77,
+        "2025/09/01": 118483,
+        "2025/10/01": 73147,
+        "2025/11/01": 26923
+      }
+    },
+    {
+      "track": "Kirmei Qalama",
+      "artist": "Argonya",
+      "total_streams": 459706,
+      "max_growth_pct": 110046.26334519574,
+      "max_growth_abs": 309230,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.6931212557591158,
+      "peak_streams": 309511,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 15752,
+      "monthly_data": {
+        "2025/08/01": 281,
+        "2025/09/01": 309511,
+        "2025/10/01": 134162,
+        "2025/11/01": 15752
+      }
+    },
+    {
+      "track": "Жаяу-ақ",
+      "artist": "ASL",
+      "total_streams": 249425,
+      "max_growth_pct": 101932.37704918033,
+      "max_growth_abs": 248715,
+      "max_growth_month": "2025/10/01",
+      "virality_coef": 3.9925268116668335,
+      "peak_streams": 248959,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 168,
+      "monthly_data": {
+        "2025/08/01": 54,
+        "2025/09/01": 244,
+        "2025/10/01": 248959,
+        "2025/11/01": 168
+      }
+    },
+    {
+      "track": "Korgim Kelar",
+      "artist": "Sevara Nazarkhan",
+      "total_streams": 140424,
+      "max_growth_pct": 83217.36111111111,
+      "max_growth_abs": 119833,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 3.417563949182476,
+      "peak_streams": 119977,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 14624,
+      "monthly_data": {
+        "2025/08/01": 144,
+        "2025/09/01": 119977,
+        "2025/10/01": 5679,
+        "2025/11/01": 14624
+      }
+    },
+    {
+      "track": "Айтшы",
+      "artist": "LORA",
+      "total_streams": 75318,
+      "max_growth_pct": 80887.5,
+      "max_growth_abs": 19413,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.2686741549164875,
+      "peak_streams": 42718,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 13139,
+      "monthly_data": {
+        "2025/08/01": 24,
+        "2025/09/01": 19437,
+        "2025/10/01": 42718,
+        "2025/11/01": 13139
+      }
+    },
+    {
+      "track": "Мен енді От сүшкі",
+      "artist": "Red Aidana",
+      "total_streams": 407671,
+      "max_growth_pct": 75676.5273311897,
+      "max_growth_abs": 235354,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.3123057563574547,
+      "peak_streams": 235665,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 167983,
+      "monthly_data": {
+        "2025/08/01": 311,
+        "2025/09/01": 235665,
+        "2025/10/01": 3712,
+        "2025/11/01": 167983
+      }
+    },
+    {
+      "track": "Sharshagan kezde",
+      "artist": "ARShAT",
+      "total_streams": 263136,
+      "max_growth_pct": 69703.14465408806,
+      "max_growth_abs": 221656,
+      "max_growth_month": "2025/10/01",
+      "virality_coef": 3.3742855405569743,
+      "peak_streams": 221974,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 40826,
+      "monthly_data": {
+        "2025/08/01": 18,
+        "2025/09/01": 318,
+        "2025/10/01": 221974,
+        "2025/11/01": 40826
+      }
+    },
+    {
+      "track": "Бесік жыры 46",
+      "artist": "Asyl Müra, Жазира Байырбекова",
+      "total_streams": 188257,
+      "max_growth_pct": 68898.82352941176,
+      "max_growth_abs": 58564,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.1226939768507944,
+      "peak_streams": 99903,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 99903,
+      "monthly_data": {
+        "2025/08/01": 85,
+        "2025/09/01": 58649,
+        "2025/10/01": 29620,
+        "2025/11/01": 99903
+      }
+    },
+    {
+      "track": "Shukir",
+      "artist": "Yenlik",
+      "total_streams": 99153,
+      "max_growth_pct": 59866.35514018692,
+      "max_growth_abs": 64057,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.588484463405041,
+      "peak_streams": 64164,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 21789,
+      "monthly_data": {
+        "2025/08/01": 107,
+        "2025/09/01": 64164,
+        "2025/10/01": 13093,
+        "2025/11/01": 21789
+      }
+    },
+    {
+      "track": "Әдемі-ау",
+      "artist": "Asyl Müra, Роза Бағланова",
+      "total_streams": 227662,
+      "max_growth_pct": 57413.01775147929,
+      "max_growth_abs": 97028,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.7077421791954739,
+      "peak_streams": 97197,
+      "current_trend": "↘️ спад",
+      "latest_month": "2025/11/01",
+      "latest_streams": 53490,
+      "monthly_data": {
+        "2025/08/01": 169,
+        "2025/09/01": 97197,
+        "2025/10/01": 76806,
+        "2025/11/01": 53490
+      }
+    },
+    {
+      "track": "Kurgim Kelar",
+      "artist": "Sevara Nazarkhan",
+      "total_streams": 11611798,
+      "max_growth_pct": 52510.326859308385,
+      "max_growth_abs": 2216986,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.8557532606061524,
+      "peak_streams": 5387158,
+      "current_trend": "↘️ спад",
+      "latest_month": "2025/11/01",
+      "latest_streams": 3999210,
+      "monthly_data": {
+        "2025/08/01": 4222,
+        "2025/09/01": 2221208,
+        "2025/10/01": 5387158,
+        "2025/11/01": 3999210
+      }
+    },
+    {
+      "track": "JOL",
+      "artist": "Yenlik, Мирас Жугунусов, ZAQ, Sapar, ATEM, Aqsunkar",
+      "total_streams": 114286,
+      "max_growth_pct": 48322.471910112356,
+      "max_growth_abs": 43007,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.7322506693733266,
+      "peak_streams": 49493,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 21608,
+      "monthly_data": {
+        "2025/08/01": 89,
+        "2025/09/01": 43096,
+        "2025/10/01": 49493,
+        "2025/11/01": 21608
+      }
+    },
+    {
+      "track": "bir kem dunie",
+      "artist": "Yenlik",
+      "total_streams": 116927,
+      "max_growth_pct": 47509.24369747899,
+      "max_growth_abs": 56536,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.9381323389807317,
+      "peak_streams": 56655,
+      "current_trend": "стабильно",
+      "latest_month": "2025/11/01",
+      "latest_streams": 27015,
+      "monthly_data": {
+        "2025/08/01": 119,
+        "2025/09/01": 56655,
+        "2025/10/01": 33138,
+        "2025/11/01": 27015
+      }
+    },
+    {
+      "track": "Сестра",
+      "artist": "Айдос Кожахметов",
+      "total_streams": 455872,
+      "max_growth_pct": 43632.739059967585,
+      "max_growth_abs": 269214,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.367603186859469,
+      "peak_streams": 269831,
+      "current_trend": "стабильно",
+      "latest_month": "2025/11/01",
+      "latest_streams": 97586,
+      "monthly_data": {
+        "2025/08/01": 617,
+        "2025/09/01": 269831,
+        "2025/10/01": 87838,
+        "2025/11/01": 97586
+      }
+    },
+    {
+      "track": "Argymaq",
+      "artist": "PUZA",
+      "total_streams": 2418166,
+      "max_growth_pct": 41939.55767077268,
+      "max_growth_abs": 1498081,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.483953541650987,
+      "peak_streams": 1501653,
+      "current_trend": "стабильно",
+      "latest_month": "2025/11/01",
+      "latest_streams": 490924,
+      "monthly_data": {
+        "2025/08/01": 3572,
+        "2025/09/01": 1501653,
+        "2025/10/01": 422017,
+        "2025/11/01": 490924
+      }
+    },
+    {
+      "track": "RedBull 64 Bars",
+      "artist": "HIRO",
+      "total_streams": 62993,
+      "max_growth_pct": 40032.29166666667,
+      "max_growth_abs": 38431,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.4464305557760384,
+      "peak_streams": 38527,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 6270,
+      "monthly_data": {
+        "2025/08/01": 96,
+        "2025/09/01": 38527,
+        "2025/10/01": 18100,
+        "2025/11/01": 6270
+      }
+    },
+    {
+      "track": "Бақыт құшағында",
+      "artist": "Abik Jeksen",
+      "total_streams": 1346670,
+      "max_growth_pct": 38354.74974463738,
+      "max_growth_abs": 750986,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.2364617909361613,
+      "peak_streams": 752944,
+      "current_trend": "стабильно",
+      "latest_month": "2025/11/01",
+      "latest_streams": 274096,
+      "monthly_data": {
+        "2025/08/01": 1958,
+        "2025/09/01": 752944,
+        "2025/10/01": 317672,
+        "2025/11/01": 274096
+      }
+    },
+    {
+      "track": "True или Труп",
+      "artist": "CASS",
+      "total_streams": 5703826,
+      "max_growth_pct": 37024.39807383628,
+      "max_growth_abs": 1845296,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.6771780906360048,
+      "peak_streams": 2391583,
+      "current_trend": "↘️ спад",
+      "latest_month": "2025/11/01",
+      "latest_streams": 1456979,
+      "monthly_data": {
+        "2025/08/01": 4984,
+        "2025/09/01": 1850280,
+        "2025/10/01": 2391583,
+        "2025/11/01": 1456979
+      }
+    },
+    {
+      "track": "ADAI",
+      "artist": "ARO",
+      "total_streams": 221027,
+      "max_growth_pct": 34933.653846153844,
+      "max_growth_abs": 72662,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.4279024734534693,
+      "peak_streams": 134158,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 13791,
+      "monthly_data": {
+        "2025/08/01": 208,
+        "2025/09/01": 72870,
+        "2025/10/01": 134158,
+        "2025/11/01": 13791
+      }
+    },
+    {
+      "track": "Сағыныш Әні",
+      "artist": "Abik Jeksen",
+      "total_streams": 51207,
+      "max_growth_pct": 34140.54054054054,
+      "max_growth_abs": 50528,
+      "max_growth_month": "2025/11/01",
+      "virality_coef": 3.958521295916574,
+      "peak_streams": 50676,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 50676,
+      "monthly_data": {
+        "2025/08/01": 45,
+        "2025/09/01": 338,
+        "2025/10/01": 148,
+        "2025/11/01": 50676
+      }
+    },
+    {
+      "track": "Мамандықтар",
+      "artist": "Balafunny",
+      "total_streams": 61051,
+      "max_growth_pct": 31830.61224489796,
+      "max_growth_abs": 31194,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.050220307611669,
+      "peak_streams": 31292,
+      "current_trend": "стабильно",
+      "latest_month": "2025/11/01",
+      "latest_streams": 16134,
+      "monthly_data": {
+        "2025/08/01": 98,
+        "2025/09/01": 31292,
+        "2025/10/01": 13527,
+        "2025/11/01": 16134
+      }
+    },
+    {
+      "track": "Оно того стоило",
+      "artist": "Uchitayy",
+      "total_streams": 50693,
+      "max_growth_pct": 30014.08450704225,
+      "max_growth_abs": 21310,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.687096837827708,
+      "peak_streams": 21381,
+      "current_trend": "стабильно",
+      "latest_month": "2025/11/01",
+      "latest_streams": 13946,
+      "monthly_data": {
+        "2025/08/01": 71,
+        "2025/09/01": 21381,
+        "2025/10/01": 15295,
+        "2025/11/01": 13946
+      }
+    },
+    {
+      "track": "Ökpeletpe",
+      "artist": "Yenlik",
+      "total_streams": 333396,
+      "max_growth_pct": 28519.93865030675,
+      "max_growth_abs": 92975,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.11830975776554,
+      "peak_streams": 176559,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 63210,
+      "monthly_data": {
+        "2025/08/01": 326,
+        "2025/09/01": 93301,
+        "2025/10/01": 176559,
+        "2025/11/01": 63210
+      }
+    },
+    {
+      "track": "Отан Ана",
+      "artist": "dudeontheguitar, Hey Monro",
+      "total_streams": 59195,
+      "max_growth_pct": 26333.333333333332,
+      "max_growth_abs": 17380,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.2055241152124334,
+      "peak_streams": 32639,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 9044,
+      "monthly_data": {
+        "2025/08/01": 66,
+        "2025/09/01": 17446,
+        "2025/10/01": 32639,
+        "2025/11/01": 9044
+      }
+    },
+    {
+      "track": "Ómіr - Ózen",
+      "artist": "Taspay",
+      "total_streams": 232932,
+      "max_growth_pct": 24944.596912521443,
+      "max_growth_abs": 145427,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.5073411982896294,
+      "peak_streams": 146010,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 73028,
+      "monthly_data": {
+        "2025/08/01": 583,
+        "2025/09/01": 146010,
+        "2025/10/01": 13311,
+        "2025/11/01": 73028
+      }
+    },
+    {
+      "track": "Desekte",
+      "artist": "Yenlik",
+      "total_streams": 2324008,
+      "max_growth_pct": 23313.64545151616,
+      "max_growth_abs": 1399285,
+      "max_growth_month": "2025/10/01",
+      "virality_coef": 1.8140475420050188,
+      "peak_streams": 1405287,
+      "current_trend": "↘️ спад",
+      "latest_month": "2025/11/01",
+      "latest_streams": 912719,
+      "monthly_data": {
+        "2025/09/01": 6002,
+        "2025/10/01": 1405287,
+        "2025/11/01": 912719
+      }
+    },
+    {
+      "track": "Küzgi Baq",
+      "artist": "Kyle Ruh",
+      "total_streams": 454681,
+      "max_growth_pct": 21658.41584158416,
+      "max_growth_abs": 43750,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.97748091519109,
+      "peak_streams": 338451,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 72076,
+      "monthly_data": {
+        "2025/08/01": 202,
+        "2025/09/01": 43952,
+        "2025/10/01": 338451,
+        "2025/11/01": 72076
+      }
+    },
+    {
+      "track": "Қимастық жыры",
+      "artist": "ARO",
+      "total_streams": 926125,
+      "max_growth_pct": 21559.41368078176,
+      "max_growth_abs": 330937,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.2105136995545958,
+      "peak_streams": 511803,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 80315,
+      "monthly_data": {
+        "2025/08/01": 1535,
+        "2025/09/01": 332472,
+        "2025/10/01": 511803,
+        "2025/11/01": 80315
+      }
+    },
+    {
+      "track": "Aral Muńy",
+      "artist": "PUZA",
+      "total_streams": 204076,
+      "max_growth_pct": 21480.70866141732,
+      "max_growth_abs": 54561,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.491640369274192,
+      "peak_streams": 76102,
+      "current_trend": "стабильно",
+      "latest_month": "2025/11/01",
+      "latest_streams": 76102,
+      "monthly_data": {
+        "2025/08/01": 254,
+        "2025/09/01": 54815,
+        "2025/10/01": 72905,
+        "2025/11/01": 76102
+      }
+    },
+    {
+      "track": "Qazaqsha Blues",
+      "artist": "Yerbol Narimanuly",
+      "total_streams": 99419,
+      "max_growth_pct": 19118.18181818182,
+      "max_growth_abs": 4206,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 3.7339341574548124,
+      "peak_streams": 92806,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 92806,
+      "monthly_data": {
+        "2025/08/01": 22,
+        "2025/09/01": 4228,
+        "2025/10/01": 2363,
+        "2025/11/01": 92806
+      }
+    },
+    {
+      "track": "OCEAN DRIVE",
+      "artist": "AVIZEX",
+      "total_streams": 80440,
+      "max_growth_pct": 17558.62068965517,
+      "max_growth_abs": 15276,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.489955246146196,
+      "peak_streams": 50073,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 14917,
+      "monthly_data": {
+        "2025/08/01": 87,
+        "2025/09/01": 15363,
+        "2025/10/01": 50073,
+        "2025/11/01": 14917
+      }
+    },
+    {
+      "track": "Пиридай",
+      "artist": "Кисло-Сладкий, Bonah",
+      "total_streams": 599058,
+      "max_growth_pct": 15756.694490818028,
+      "max_growth_abs": 471913,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.3782738900073115,
+      "peak_streams": 474908,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/10/01",
+      "latest_streams": 121155,
+      "monthly_data": {
+        "2025/08/01": 2995,
+        "2025/09/01": 474908,
+        "2025/10/01": 121155
+      }
+    },
+    {
+      "track": "Шаршамай",
+      "artist": "Мұхтар Ханзада, PUZA",
+      "total_streams": 98721,
+      "max_growth_pct": 15714.545454545456,
+      "max_growth_abs": 60501,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.4669928384031765,
+      "peak_streams": 60886,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 6183,
+      "monthly_data": {
+        "2025/08/01": 385,
+        "2025/09/01": 60886,
+        "2025/10/01": 31267,
+        "2025/11/01": 6183
+      }
+    },
+    {
+      "track": "One One",
+      "artist": "Yenlik, De Lacure",
+      "total_streams": 712741,
+      "max_growth_pct": 15510.260336906586,
+      "max_growth_abs": 202564,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.8976823278021049,
+      "peak_streams": 338139,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 338139,
+      "monthly_data": {
+        "2025/08/01": 1306,
+        "2025/09/01": 203870,
+        "2025/10/01": 169426,
+        "2025/11/01": 338139
+      }
+    },
+    {
+      "track": "Kun Batqanda",
+      "artist": "ARShAT",
+      "total_streams": 73341,
+      "max_growth_pct": 15313.0,
+      "max_growth_abs": 61252,
+      "max_growth_month": "2025/10/01",
+      "virality_coef": 3.3624848311312907,
+      "peak_streams": 61652,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 11220,
+      "monthly_data": {
+        "2025/08/01": 69,
+        "2025/09/01": 400,
+        "2025/10/01": 61652,
+        "2025/11/01": 11220
+      }
+    },
+    {
+      "track": "Jusan: Senimmen",
+      "artist": "MOLDANAZAR, Darkhan Juzz, Ayau, Dequine, De Lacure, Aldiyar",
+      "total_streams": 96963,
+      "max_growth_pct": 14999.710144927536,
+      "max_growth_abs": 51749,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.1490259171023998,
+      "peak_streams": 52094,
+      "current_trend": "↘️ спад",
+      "latest_month": "2025/11/01",
+      "latest_streams": 17518,
+      "monthly_data": {
+        "2025/08/01": 345,
+        "2025/09/01": 52094,
+        "2025/10/01": 27006,
+        "2025/11/01": 17518
+      }
+    },
+    {
+      "track": "Ata-Dástúr",
+      "artist": "Madina Sadvakasova",
+      "total_streams": 138722,
+      "max_growth_pct": 14161.59420289855,
+      "max_growth_abs": 39086,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.8279436570983694,
+      "peak_streams": 63394,
+      "current_trend": "🚀 взрывной рост",
+      "latest_month": "2025/11/01",
+      "latest_streams": 63394,
+      "monthly_data": {
+        "2025/08/01": 276,
+        "2025/09/01": 39362,
+        "2025/10/01": 35690,
+        "2025/11/01": 63394
+      }
+    },
+    {
+      "track": "Сағындым сені",
+      "artist": "Asyl Müra, Құрманай Омарова",
+      "total_streams": 331306,
+      "max_growth_pct": 14138.512869399428,
+      "max_growth_abs": 148313,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 1.803311742014935,
+      "peak_streams": 149362,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 60279,
+      "monthly_data": {
+        "2025/08/01": 1049,
+        "2025/09/01": 149362,
+        "2025/10/01": 120616,
+        "2025/11/01": 60279
+      }
+    },
+    {
+      "track": "ZHAUNGER",
+      "artist": "Yerbolat Qudaibergenov",
+      "total_streams": 55996,
+      "max_growth_pct": 13833.333333333334,
+      "max_growth_abs": 830,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 3.8196299735695405,
+      "peak_streams": 53471,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 1683,
+      "monthly_data": {
+        "2025/08/01": 6,
+        "2025/09/01": 836,
+        "2025/10/01": 53471,
+        "2025/11/01": 1683
+      }
+    },
+    {
+      "track": "Bir Betkei",
+      "artist": "Kuanyshbek Nurgazy",
+      "total_streams": 126753,
+      "max_growth_pct": 12989.139784946237,
+      "max_growth_abs": 120799,
+      "max_growth_month": "2025/10/01",
+      "virality_coef": 3.841455429062823,
+      "peak_streams": 121729,
+      "current_trend": "📉 падение",
+      "latest_month": "2025/11/01",
+      "latest_streams": 4081,
+      "monthly_data": {
+        "2025/08/01": 13,
+        "2025/09/01": 930,
+        "2025/10/01": 121729,
+        "2025/11/01": 4081
+      }
+    },
+    {
+      "track": "О моя Света",
+      "artist": "MIROSH",
+      "total_streams": 83331,
+      "max_growth_pct": 12884.857142857143,
+      "max_growth_abs": 45097,
+      "max_growth_month": "2025/09/01",
+      "virality_coef": 2.1815170824783094,
+      "peak_streams": 45447,
+      "current_trend": "↘️ спад",
+      "latest_month": "2025/11/01",
+      "latest_streams": 16170,
+      "monthly_data": {
+        "2025/08/01": 350,
+        "2025/09/01": 45447,
+        "2025/10/01": 21364,
+        "2025/11/01": 16170
+      }
+    }
+  ]
+}
