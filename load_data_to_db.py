@@ -83,19 +83,34 @@ class DataLoader:
         self.artist_cache[cache_key] = artist_id
         return artist_id
     
-    def get_or_create_track(self, track_name, artist_id, label_id):
+    def get_or_create_track(self, track_name, artist_id, label_id, isrc=None):
         """Получить или создать трек"""
-        cache_key = (track_name, artist_id)
-        if cache_key in self.track_cache:
-            return self.track_cache[cache_key]
-        
-        self.cursor.execute(
-            "INSERT INTO tracks (track_name, artist_id, label_id) VALUES (%s, %s, %s) ON CONFLICT (track_name, artist_id) DO UPDATE SET track_name = EXCLUDED.track_name RETURNING track_id",
-            (track_name, artist_id, label_id)
-        )
-        track_id = self.cursor.fetchone()[0]
-        self.track_cache[cache_key] = track_id
-        return track_id
+        # Если есть ISRC, используем его для уникальности
+        if isrc and isrc.strip():
+            cache_key = (isrc, track_name, artist_id)
+            if cache_key in self.track_cache:
+                return self.track_cache[cache_key]
+            
+            self.cursor.execute(
+                "INSERT INTO tracks (track_name, artist_id, label_id, isrc) VALUES (%s, %s, %s, %s) ON CONFLICT (isrc) DO UPDATE SET track_name = EXCLUDED.track_name RETURNING track_id",
+                (track_name, artist_id, label_id, isrc)
+            )
+            track_id = self.cursor.fetchone()[0]
+            self.track_cache[cache_key] = track_id
+            return track_id
+        else:
+            # Fallback: без ISRC (старая логика для записей без ISRC)
+            cache_key = (track_name, artist_id)
+            if cache_key in self.track_cache:
+                return self.track_cache[cache_key]
+            
+            self.cursor.execute(
+                "INSERT INTO tracks (track_name, artist_id, label_id) VALUES (%s, %s, %s) ON CONFLICT (track_name, artist_id) DO UPDATE SET track_name = EXCLUDED.track_name RETURNING track_id",
+                (track_name, artist_id, label_id)
+            )
+            track_id = self.cursor.fetchone()[0]
+            self.track_cache[cache_key] = track_id
+            return track_id
     
     def get_or_create_platform(self, platform_name):
         """Получить или создать платформу"""
@@ -153,7 +168,8 @@ class DataLoader:
             # Создание лейбла, артиста, трека
             label_id = self.get_or_create_label(item['label'])
             artist_id = self.get_or_create_artist(item['artist'], label_id)
-            track_id = self.get_or_create_track(item['track'], artist_id, label_id)
+            isrc = item.get('isrc', '')  # Получаем ISRC из данных
+            track_id = self.get_or_create_track(item['track'], artist_id, label_id, isrc)
             
             # Подсчет платформ и стран
             platforms = item.get('platforms', '').split('|') if item.get('platforms') else []
@@ -371,7 +387,8 @@ class DataLoader:
             # Находим трек
             label_id = self.get_or_create_label(item['label'])
             artist_id = self.get_or_create_artist(item['artist'], label_id)
-            track_id = self.get_or_create_track(item['track'], artist_id, label_id)
+            isrc = item.get('isrc', '')  # Получаем ISRC из данных
+            track_id = self.get_or_create_track(item['track'], artist_id, label_id, isrc)
             
             # Загрузка статистики по платформам
             if 'platforms' in item and isinstance(item['platforms'], dict):

@@ -88,14 +88,17 @@ def precalculate_data():
     # ============================================================================
     print(f"\n📊 1. Агрегация по трекам...")
     
-    tracks_agg = df_all.groupby(['Название трека', 'Основной артист', 'Лейбл']).agg({
+    # ВАЖНО: Группируем по ISRC (уникальный код записи), а не по названию
+    # Один трек может быть в разных альбомах/релизах, но ISRC один
+    tracks_agg = df_all.groupby(['ISRC', 'Название трека', 'Основной артист']).agg({
         'Сумма вознаграждения': 'sum',
         'Количество': 'sum',
+        'Лейбл': 'first',  # Берём первый встретившийся лейбл
         'Платформа': lambda x: '|'.join(sorted(set(x))),
         'страна / регион': lambda x: '|'.join(sorted(set(x)))
     }).reset_index()
     
-    tracks_agg.columns = ['track', 'artist', 'label', 'revenue', 'streams', 'platforms', 'countries']
+    tracks_agg.columns = ['isrc', 'track', 'artist', 'revenue', 'streams', 'label', 'platforms', 'countries']
     tracks_agg['avg_rate'] = tracks_agg['revenue'] / tracks_agg['streams']
     tracks_agg = tracks_agg.sort_values('revenue', ascending=False)
     
@@ -188,10 +191,12 @@ def precalculate_data():
     print(f"\n🔍 6. Детальная статистика по трекам...")
     
     track_details = []
-    grouped = df_all.groupby(['Название трека', 'Основной артист'])
+    # ВАЖНО: Группируем по ISRC + название + артист для уникальности
+    grouped = df_all.groupby(['ISRC', 'Название трека', 'Основной артист'])
     
-    for (track_name, artist_name), group in grouped:
+    for (isrc, track_name, artist_name), group in grouped:
         detail = {
+            'isrc': isrc,
             'track': track_name,
             'artist': artist_name,
             'label': group['Лейбл'].iloc[0],
